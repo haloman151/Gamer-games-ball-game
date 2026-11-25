@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
 
 
+
+
+
+
+
+
+
 body,
 * {
     font-family: "open sans";
@@ -31,10 +38,15 @@ body,
 #page1{
     background-image: url("./assets/testMainMenuImg.png");
     place-items: center;
+    border-radius: 1rem;
+    
 }
 
 .show{
     left:0;
 }
+
+
+
 
 /*hello world*/
