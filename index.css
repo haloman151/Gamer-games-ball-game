@@ -24,7 +24,8 @@ body,
 }
 
 
-#page0{
+#page0.no-bg {
+    background:black;
     background-image:url("./assets/testImg2.jpg"); 
 }
 
