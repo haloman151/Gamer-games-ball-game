@@ -14,11 +14,27 @@ body,
 .page {
     width: 100vw;
     height: 100vh;
+    background-color: aliceblue;
     overflow: hidden;
     /* grid layout */
     display: grid;
     place-items: center;
     position: fixed;
-    left: 0;
+    left: -100vw;
 }
 
+
+#page0{
+    background-image:url("./assets/testImg2.jpg"); 
+}
+
+#page1{
+    background-image: url("./assets/testMainMenuImg.png");
+    place-items: center;
+}
+
+.show{
+    left:0;
+}
+
+/*hello world*/
